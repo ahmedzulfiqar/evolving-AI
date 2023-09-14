@@ -33,16 +33,36 @@ function Mainsection() {
               <div className="mask"></div>
               <p className="legend text-md-start text-center">
                 <div className="container ps-md-5">
-                  <div className="display-1 text-warning">
+                  <div className="display-1 text-warning ps-md-2">
                     EVOLVING <span className="text-light">AI</span>
                   </div>
-                  <p className=" fw-lighter col-md-10 mt-2 fw-light">
+                  <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3">
                     Journey through the world of Artificial Intelligence.
                   </p>
-                  <div className="text-md-start text-center fw-light ">
-                    <div className="display-11 fw-bolder mb-0 mt-0 pt-0"></div>
-                    <div className="btn bg-dangera  text-light px-4">
-                      <div className="h3 p-0 m-0"> </div>
+                  <div className="text-md-start text-center fw-light px-0">
+                    <div className="mt-md-4 mt-2 ">
+                      <div class=" justify-content-md-start  justify-content-center  algin-self-center  pre d-flex px-0">
+                        <ul class=" d-flex px-0">
+                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2 ">
+                            <i
+                              class="fa-brands fa-discord text-dark "
+                              aria-hidden="true"
+                            ></i>
+                          </li>
+                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
+                            <i class="fa-solid  fa-envelope text-dark "></i>
+                          </li>
+                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
+                            <i class="fa-brands fa-instagram text-dark "></i>
+                          </li>
+                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
+                            <i class="fa-brands fa-twitter text-dark "></i>
+                          </li>
+                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
+                            <i class="fa-brands fa-tiktok text-dark "></i>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>

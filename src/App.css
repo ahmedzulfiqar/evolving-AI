@@ -140,6 +140,9 @@ body {
 .legend .display-1 {
   font-size: 100px !important;
 }
+.legend i {
+  font-size: 20px;
+}
 .mask {
   width: 100% !important;
   height: 100vh !important;
@@ -147,11 +150,14 @@ body {
   position: absolute;
   top: 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .legend .fw-lighter {
     font-size: 16px !important;
   }
   .legend .display-1 {
     font-size: 13vw !important;
+  }
+  .legend i {
+    font-size: 10px;
   }
 }

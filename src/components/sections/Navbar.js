@@ -56,10 +56,11 @@ function Navbar({ setopen, open }) {
         </div>
         <div class="d-sm-none d-block mt-3 w-100 bg-black py-3">
           <div className="row m-0 justify-content-between px-3">
-            <i class="fa fa-home text-light col-2" aria-hidden="true"></i>
-            <i class="fa-solid fa-user-group text-light col-2"></i>
-            <i class="fa-solid fa-bell text-light col-2 "></i>
-            <i class="fa fa-envelope text-light  col-2"></i>
+            <i class="fa-brands fa-discord text-light col-2" aria-hidden="true"></i>
+            <i class="fa-solid  fa-envelope text-light col-2"></i>
+            <i class="fa-brands fa-instagram text-light col-2 "></i>
+            <i class="fa-brands fa-twitter  text-light col-2"></i>
+            <i class="fa-brands fa-tiktok  text-light col-2"></i>
           </div>
         </div>
       </nav>
