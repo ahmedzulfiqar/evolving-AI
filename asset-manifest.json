@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/evolving-AI/static/css/main.8436e3a9.css",
-    "main.js": "/evolving-AI/static/js/main.e2c76f78.js",
+    "main.js": "/evolving-AI/static/js/main.d9e3643c.js",
     "static/js/787.c4e7f8f9.chunk.js": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels_videos_1851190 (2160p).mp4": "/evolving-AI/static/media/pexels_videos_1851190 (2160p).217bc138c2eb8d98fc50.mp4",
     "static/media/nasa-Q1p7bh3SHj8-unsplash.jpg": "/evolving-AI/static/media/nasa-Q1p7bh3SHj8-unsplash.ce1bc343d487e0d73b1d.jpg",
     "static/media/Evolving AI logo.png": "/evolving-AI/static/media/Evolving AI logo.d2cc1a6b3e2bd97db790.png",
     "index.html": "/evolving-AI/index.html",
     "main.8436e3a9.css.map": "/evolving-AI/static/css/main.8436e3a9.css.map",
-    "main.e2c76f78.js.map": "/evolving-AI/static/js/main.e2c76f78.js.map",
+    "main.d9e3643c.js.map": "/evolving-AI/static/js/main.d9e3643c.js.map",
     "787.c4e7f8f9.chunk.js.map": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8436e3a9.css",
-    "static/js/main.e2c76f78.js"
+    "static/js/main.d9e3643c.js"
   ]
 }
