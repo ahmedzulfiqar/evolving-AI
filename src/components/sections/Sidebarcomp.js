@@ -19,10 +19,14 @@ function Sidebarcomp({ open }) {
   ];
   console.log(open);
   return (
-    <div className=" p-0 sidebar pe-md-5 col-lg-2 col-md-5  ">
+    <div
+      className={` p-0  d-md-none d-block pe-md-5 py-3  ${
+        open ? "sidebar" : "sidebar2"
+      }`}
+    >
       <div
-        className={` p-0 pt-0  bg-blacks  h-100 ${
-          !open ? "sidebardiv" : "sidebardiv2"
+        className={` p-0 pt-0  bg-blacks  h-100 sidebardi${
+          !open ? "sidebardi pb-2" : "sidebardiv2 pb-2"
         }`}
       >
         <ul class="  pt-lg-3 pt-3     fw-lighta p-0 ps-3 fd">
@@ -32,14 +36,7 @@ function Sidebarcomp({ open }) {
                 <li
                   class={" text-light py-2 px-3 mt-0 h5 ps-md-1 ps-2 fw-lighta"}
                 >
-                  {!open ? (
-                    <span className="text-purple">PAGES</span>
-                  ) : (
-                    <i
-                      class="fa fa-dot-circle text-purple"
-                      aria-hidden="true"
-                    ></i>
-                  )}
+                  <span className="text-purple">PAGES</span>
                 </li>
                 {i.list.map((da) => {
                   return (

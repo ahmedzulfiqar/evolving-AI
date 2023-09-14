@@ -22,8 +22,8 @@ function Navbar({ setopen, open }) {
   return (
     <div className="col-12 p-0 m-0">
       <nav
-        class={`navbar mynavbar navbar-expand-sm bg-blacks text-light px-md-3 px-1 shadow fixed-top ${
-          !Scrolled ? "py-sm-3 pb-sm-3 py-3 pb-0" : "py-sm-3 pb-sm-3 py-3 pb-0"
+        class={`navbar mynavbar navbar-expand-sm bg-blacks text-light px-md-3 px-1  fixed-top ${
+          !Scrolled ? "py-sm-3 pb-sm-3 py-4 " : "py-sm-3 pb-sm-3 py-4 "
         }`}
       >
         <div class="container ps-md-0">
@@ -31,36 +31,26 @@ function Navbar({ setopen, open }) {
           <a class="display-6 text-purple fw-bolder mb-2 mt-0 " href="#">
             <img src={logo} alt="" className="img-fluid " width={"180rem"} />
           </a>
-          <div class=" justify-content-start algin-self-start ms-auto me-5 pre d-sm-block d-none">
-            <ul class="navbar-nav">
-              <li class="nav-item mx-md-3 mx-2">
-                <i
-                  class="fa-brands fa-discord text-light "
-                  aria-hidden="true"
-                ></i>
-              </li>
-              <li class="nav-item mx-md-3 mx-2">
-                <i class="fa-solid  fa-envelope text-light "></i>
-              </li>
-              <li class="nav-item mx-md-3 mx-2">
-                <i class="fa-brands fa-instagram text-light "></i>
-              </li>
-              <li class="nav-item mx-md-3 mx-2">
-                <i class="fa-brands fa-twitter text-light "></i>
-              </li>
-              <li class="nav-item mx-md-3 mx-2">
-                <i class="fa-brands fa-tiktok text-light "></i>
-              </li>
+          <div class=" justify-content-start algin-self-start  pre d-md-block d-none px-0">
+            <ul class="navbar-nav mx-0">
+              <li class="nav-item mx-md-3 mx-2">Home</li>
+              <li class="nav-item mx-md-3 mx-2">About Us</li>
+              <li class="nav-item mx-md-3 mx-2">PartnerShips</li>
+              <li class="nav-item mx-md-3 mx-2">Contact</li>
+              <li class="nav-item mx-md-3 mx-2">News Teller</li>
             </ul>
           </div>
-        </div>
-        <div class="d-sm-none d-block mt-3 w-100 bg-black py-3">
-          <div className="row m-0 justify-content-between px-3">
-            <i class="fa-brands fa-discord text-light col-2" aria-hidden="true"></i>
-            <i class="fa-solid  fa-envelope text-light col-2"></i>
-            <i class="fa-brands fa-instagram text-light col-2 "></i>
-            <i class="fa-brands fa-twitter  text-light col-2"></i>
-            <i class="fa-brands fa-tiktok  text-light col-2"></i>
+          <div
+            class=" justify-content-end algin-self-center setwi me-3 d-md-none d-block "
+            onClick={() => setopen(!open)}
+          >
+            <i
+              class={
+                open
+                  ? "fa-solid fa-bars fa-rotate-180 display-6"
+                  : "fa-solid fa-xmark  display-6"
+              }
+            ></i>
           </div>
         </div>
       </nav>
