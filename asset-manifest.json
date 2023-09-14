@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/evolving-Ai/static/css/main.c0e50358.css",
+    "main.js": "/evolving-Ai/static/js/main.2bbe8ae5.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/evolving-Ai/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pexels_videos_1851190 (2160p).mp4": "/evolving-Ai/static/media/pexels_videos_1851190 (2160p).217bc138c2eb8d98fc50.mp4",
+    "static/media/nasa-Q1p7bh3SHj8-unsplash.jpg": "/evolving-Ai/static/media/nasa-Q1p7bh3SHj8-unsplash.ce1bc343d487e0d73b1d.jpg",
+    "static/media/Evolving AI logo.png": "/evolving-Ai/static/media/Evolving AI logo.d2cc1a6b3e2bd97db790.png",
+    "index.html": "/evolving-Ai/index.html",
+    "main.c0e50358.css.map": "/evolving-Ai/static/css/main.c0e50358.css.map",
+    "main.2bbe8ae5.js.map": "/evolving-Ai/static/js/main.2bbe8ae5.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/evolving-Ai/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e50358.css",
+    "static/js/main.2bbe8ae5.js"
+  ]
+}
