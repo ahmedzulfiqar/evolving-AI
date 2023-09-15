@@ -33,16 +33,12 @@ function Sidebarcomp({ open }) {
           {sampledata.map((i) => {
             return (
               <>
-                <li
-                  class={" text-light py-2 px-3 mt-0 h5 ps-md-1 ps-2 fw-lighta"}
-                >
-                  <span className="text-purple">PAGES</span>
-                </li>
+             
                 {i.list.map((da) => {
                   return (
                     <li class="text-start muted py-2 px-md-2 px-2 fw-lighta hoveri">
                       <i
-                        class={`${da.icon}  muted ${open ? "pe-5" : "pe-4"}`}
+                        class={`${da.icon}  muted pe-5`}
                         aria-hidden="true"
                       ></i>
                       <span className="fw-lighta  muted ">{da.head}</span>

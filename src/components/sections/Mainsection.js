@@ -5,7 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import logo from "../media/Evolving AI logo.png";
 import bg from "../media/nasa-Q1p7bh3SHj8-unsplash.jpg";
-import videos from "../media/pexels_videos_1851190 (2160p).mp4";
+import videos from "../media/pexels-pavel-danilyuk-8084614 (Original).mp4";
+import robot from "../media/iStock-1029035836-e1575983057612-removebg.png";
 function Mainsection() {
   return (
     <Element name="Home" className="px-0">
@@ -31,38 +32,22 @@ function Mainsection() {
                 <source src={videos} type="video/mp4 " />
               </video>
               <div className="mask"></div>
-              <p className="legend text-md-start text-center">
+              <p className="legend text-start ">
                 <div className="container ps-md-5">
-                  <div className="display-1 text-warning ps-md-2">
-                    EVOLVING <span className="text-light">AI</span>
-                  </div>
-                  <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3">
-                    Journey through the world of Artificial Intelligence.
-                  </p>
-                  <div className="text-md-start text-center fw-light px-0">
-                    <div className="mt-md-4 mt-2 ">
-                      <div class=" justify-content-md-start  justify-content-center  algin-self-center  pre d-flex px-0">
-                        <ul class=" d-flex px-0">
-                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2 ">
-                            <i
-                              class="fa-brands fa-discord text-dark "
-                              aria-hidden="true"
-                            ></i>
-                          </li>
-                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
-                            <i class="fa-solid  fa-envelope text-dark "></i>
-                          </li>
-                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
-                            <i class="fa-brands fa-instagram text-dark "></i>
-                          </li>
-                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
-                            <i class="fa-brands fa-twitter text-dark "></i>
-                          </li>
-                          <li class="nav-item mx-md-3 mx-2 bg-warning px-2 py-1 rounded-2">
-                            <i class="fa-brands fa-tiktok text-dark "></i>
-                          </li>
-                        </ul>
+                  <div className="row">
+                    <div className="col-md-8 col-12">
+                      <div className="display-1 text- ps-md-2">
+                        EVOLVING <span className="text-light">AI</span>
                       </div>
+                      <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3">
+                        Journey through the world of Artificial Intelligence.
+                      </p>
+                      <div className="text-start  fw-light px-0">
+                        <div className="mt-md-4 mt-2 "></div>
+                      </div>
+                    </div>
+                    <div className="col-md-4 d-md-block d-none">
+                      <img alt="" className="checker img-fluid" />
                     </div>
                   </div>
                 </div>
