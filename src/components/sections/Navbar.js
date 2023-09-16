@@ -6,7 +6,7 @@ function Navbar({ setopen, open }) {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
 
-      if (scrollTop > 500) {
+      if (scrollTop >50) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -23,17 +23,17 @@ function Navbar({ setopen, open }) {
     <div className="col-12 p-0 m-0">
       <nav
         class={`navbar mynavbar navbar-expand-sm bg-md-transparent  shadow-1 text-light px-md-3 px-1  fixed-top ${
-          !Scrolled ? "py-sm-3 pb-sm-3 py-4 " : "py-sm-3 pb-sm-3 py-4 "
+          !Scrolled ? "py-sm-3 pb-sm-3 py-4 " : "py-sm-3 pb-sm-3 py-4 bg-black "
         }`}
       >
         <div class="container ps-md-0">
           {" "}
           <a class="display-6 text-purple fw-bolder mb-2 mt-0 " href="#">
-            <img src={logo} alt="" className="img-fluid " width={"180rem"} />
+            <img src={logo} alt="" className="img-fluid loho" />
           </a>
           <div class=" justify-content-start algin-self-start  pre d-md-block d-none px-0">
             <ul class="navbar-nav mx-0">
-              <li class="nav-item mx-md-3 mx-2">Home</li>
+              <li class="nav-item mx-md-3 mx-2 text-warning fw-bolder">Home</li>
               <li class="nav-item mx-md-3 mx-2">About Us</li>
               <li class="nav-item mx-md-3 mx-2">PartnerShips</li>
               <li class="nav-item mx-md-3 mx-2">Contact</li>
@@ -75,8 +75,8 @@ function Navbar({ setopen, open }) {
           ></i>
         </div>
         <div class="offcanvas-body px-0  mt-0">
-          <ul class="navbar-nav justify-content-end flex-grow-1 sa mynavbar text-light">
-            <li class="nav-item px-md-3 px-2 ps-4 py-3 bg-warning shadow">
+          <ul class="navbar-nav justify-content-end flex-grow-1 sa mynavbar text-light fw-bolder">
+            <li class="nav-item px-md-3 px-2 ps-4 py-3 bg-warning shadow"  >
               Home
             </li>
             <li class="nav-item px-md-3 px-2  ps-4 py-3 ">About Us</li>

@@ -84,7 +84,6 @@ body {
 /********************************************* BODY-CSS *********************************************/
 
 body {
-  background-color: var(--grey) !important;
 }
 
 /********************************************* NAVBAR-CSS *********************************************/
@@ -145,8 +144,11 @@ body {
 }
 .legend .display-1 {
   font-size: 100px !important;
-  font-weight: 900 !important;
+  font-weight: 700 !important;
   letter-spacing: 2px;
+}
+.weight {
+  font-weight: 900 !important;
 }
 .legend i {
   font-size: 20px;
@@ -158,7 +160,15 @@ body {
   position: absolute;
   top: 0;
 }
-@media screen and (max-width: 900px) {
+.legend2 {
+  position: absolute;
+  top: 90vh;
+}
+.loho {
+  width: 12rem !important;
+}
+
+@media screen and (max-width: 1000px) {
   .legend .fw-lighter {
     font-size: 16px !important;
   }
@@ -180,7 +190,17 @@ body {
     width: 100% !important;
     height: 80vh !important;
   }
+  .legend2 {
+    top: 72vh;
+  }
+  .loho {
+    width: 9rem !important;
+  }
 }
 .checker {
   transform: translateY(-100px);
+}
+.dsds {
+  width: 100vw !important;
+  height: 50% !important;
 }

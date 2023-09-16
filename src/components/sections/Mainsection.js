@@ -33,25 +33,73 @@ function Mainsection() {
               </video>
               <div className="mask"></div>
               <p className="legend text-start ">
-                <div className="container ps-md-5">
-                  <div className="row">
-                    <div className="col-md-8 col-12">
-                      <div className="display-1 text- ps-md-2">
+                <div className="container pe-0">
+                  <div className="row m-0">
+                    <div className="col-md-8 col-12  px-0">
+                      <div className="display-1 text- ps-md-2 px-0">
                         EVOLVING <span className="text-light">AI</span>
                       </div>
-                      <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3">
-                        Journey through the world of Artificial Intelligence.
+                      <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3 text-md-warning">
+                        Stay ahead of the curve
                       </p>
                       <div className="text-start  fw-light px-0">
-                        <div className="mt-md-4 mt-2 "></div>
+                        <div className="mt-md-1 mt-2 "></div>
                       </div>
                     </div>
-                    <div className="col-md-4 d-md-block d-none">
+                    <div className="col-md-4 d-lg-block d-none">
                       <img alt="" className="checker img-fluid" />
-                    </div>
+                    </div>{" "}
+                    <ul class="fs-4 d-lg-flex d-none">
+                      <li class="nav-item mx-md-2 mx-2  border- rounded px-2">
+                        <i
+                          class="fa-brands fa-discord text-light p-0 m-0 pb-2 "
+                          aria-hidden="true"
+                        ></i>
+                      </li>
+                      <li class=" mx-md-2 mx-2  - rounded px-2">
+                        <i class="fa-solid fa-envelope text-light p-0 m-0 pb-2  "></i>
+                      </li>
+                      <li class=" mx-md-2 mx-2  border- rounded px-2">
+                        <i class="fa-brands fa-instagram text-light p-0 m-0 pb-2  "></i>
+                      </li>
+                      <li class="mx-md-2 mx-2  border- rounded px-2">
+                        <i class="fa-brands fa-twitter text-light p-0 m-0 pb-2  "></i>
+                      </li>{" "}
+                      <li class="mx-md-2 mx-2  border- rounded px-2">
+                        <i class="fa-brands fa-tiktok text-light p-0 m-0 pb-2  "></i>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </p>
+              <div className="legend2  w-100">
+                <div className="container  ps-0">
+                  <div className="row m-0 justify-content-center ps-0">
+                    <div class="col-12 text-center  text-light ps-0">
+                      <ul class=" d-lg-none d-flex fs-4  text-center justify-content-center">
+                        <li class="nav-item mx-md-3 mx-2 ">
+                          <i
+                            class="fa-brands fa-discord text- "
+                            aria-hidden="true"
+                          ></i>
+                        </li>
+                        <li class=" mx-md-3 mx-2">
+                          <i class="fa-solid fa-envelope text- "></i>
+                        </li>
+                        <li class=" mx-md-3 mx-2">
+                          <i class="fa-brands fa-instagram text- "></i>
+                        </li>
+                        <li class="mx-md-3 mx-2">
+                          <i class="fa-brands fa-twitter text- "></i>
+                        </li>{" "}
+                        <li class="mx-md-3 mx-2">
+                          <i class="fa-brands fa-tiktok text- "></i>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </Carousel>
         </div>
