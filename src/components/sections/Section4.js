@@ -1,16 +1,17 @@
 import React from "react";
-import robot from '../media/OIP.jpg'
+import video1 from "../media/sds.mp4";
+import robot from "../media/OIP.jpg";
 function Section4() {
   return (
     <div className="col-12 p-0 py-md-5 py-5 tean sec4">
       <div className="container py-md-5 px-0">
         <div className="row m-0 justify-content-between">
           <div className="col-md-3 col-12 d-md-block d-none">
-            <img
-              src={robot}
-              alt=""
-              className="img-fluid"
-            />
+            <div className="videocover card">
+              <video muted className="video p-0 m-0 imgcar" loop autoPlay>
+                <source src={video1} type="video/mp4 " />
+              </video>
+            </div>
           </div>{" "}
           <div className="col-md-9 col-12 al px-md-5 mt-md-0 mt-5">
             <div className="col-12  display-5 weight">
@@ -53,13 +54,13 @@ function Section4() {
             </p>{" "}
             <p className="mt-0 mb-3">
               <span className="fw-bold text-warning">
-              Data-Driven Insights :
+                Data-Driven Insights :
               </span>
-              &nbsp; Just like on Instagram, we provide
-              data-driven insights and analytics on Discord, allowing brands to
-              measure the performance and impact of their collaborations
-              effectively. This data-driven approach helps brands make informed
-              decisions and optimize their strategies.
+              &nbsp; Just like on Instagram, we provide data-driven insights and
+              analytics on Discord, allowing brands to measure the performance
+              and impact of their collaborations effectively. This data-driven
+              approach helps brands make informed decisions and optimize their
+              strategies.
             </p>
           </div>
         </div>

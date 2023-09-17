@@ -213,6 +213,9 @@ body {
   height: 17rem;
 }
 .sec4 span {
-  text-shadow:1px 0px 0px rgb(0, 0, 0) !important;
+  text-shadow:1px 0px 0px rgba(0, 0, 0, 0.631) !important;
   letter-spacing: 2px;
+}
+.transfrom{
+  transform: translateX(-3vw)
 }

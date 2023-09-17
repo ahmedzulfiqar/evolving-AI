@@ -9,7 +9,6 @@ function Section2() {
           <div className="col-12 text-md-center text-start">
             <div className="display-5 mt-2 text-dark weight">
               Embracing the Power of AI
-            <hr className="opacity-100 border-warning w-100 align-self-center justify-content-center"/>
             </div>
             <p className="mt-md-4 mt-3 text-dark px-0">
               At [Your AI Website], we're passionate about exploring the
