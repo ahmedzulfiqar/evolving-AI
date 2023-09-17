@@ -21,14 +21,21 @@ function Section5() {
     <div className="col-12 p-0 py-md-5 py-5 tean bg-black">
       <div className="container py-md-5 px-0">
         <div className="row m-0 justify-content-center">
-          <div className="col-12 text-light display-6 weight">
-            NEWSLETTER
-            <hr className="opacity-100 border-warning w-25 mt-1" />
-          </div>
-          <div className="col-12 mt-md-4 mt-3">
+          <div className="col-12 mt-md-2 mt-3">
             <div className="row m-0  setf">
+              <div className="col-6 d-md-block d-none">
+                <img
+                  src="https://blogs.worldbank.org/sites/default/files/users/user1111/top%20artificial%20intelligence.jpg "
+                  className="img-fluid"
+                  alt=""
+                />
+              </div>
               <div className="col-md-6 col-12 ps-0">
-                <div className="display-6 text-light weight">
+                <div className="col-12 text-light display-6 weight">
+                  NEWSLETTER
+                  <hr className="opacity-100 border-warning w-25 mt-1" />
+                </div>
+                <div className="display-6 text-light weight mt-4">
                   DON'T LOSE YOUR JOB TO AI.{" "}
                   <span className="text-warning"> QUIT YOUR</span>{" "}
                   <span className="text-warning">JOB WITH AI.</span>
@@ -49,8 +56,6 @@ function Section5() {
                   </button>
                 </div>
               </div>{" "}
-              <div className="col-6">
-              </div>
             </div>
           </div>
         </div>
