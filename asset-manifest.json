@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/evolving-AI/static/css/main.53d4905d.css",
-    "main.js": "/evolving-AI/static/js/main.a1c23dcd.js",
+    "main.css": "/evolving-AI/static/css/main.a985528d.css",
+    "main.js": "/evolving-AI/static/js/main.0297276b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels-pavel-danilyuk-8084614 (Original).mp4": "/evolving-AI/static/media/pexels-pavel-danilyuk-8084614 (Original).d82d72cf348241743c26.mp4",
+    "static/media/sds.mp4": "/evolving-AI/static/media/sds.05fa85eff219c5118cb8.mp4",
     "static/media/iStock-1029035836-e1575983057612-removebg.png": "/evolving-AI/static/media/iStock-1029035836-e1575983057612-removebg.27eab42a4a07aa8cd6fb.png",
     "static/media/nasa-Q1p7bh3SHj8-unsplash.jpg": "/evolving-AI/static/media/nasa-Q1p7bh3SHj8-unsplash.ce1bc343d487e0d73b1d.jpg",
+    "static/media/372964693___n.heic": "/evolving-AI/static/media/372964693_1342516460001593_3149138673660659603_n.0c88fbb1851d4d36fd78.heic",
     "static/media/Evolving AI logo.png": "/evolving-AI/static/media/Evolving AI logo.d2cc1a6b3e2bd97db790.png",
     "static/media/OIP.jpg": "/evolving-AI/static/media/OIP.cb265732785c52e824d5.jpg",
     "static/media/revicons.eot": "/evolving-AI/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/evolving-AI/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/evolving-AI/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/evolving-AI/index.html",
-    "main.53d4905d.css.map": "/evolving-AI/static/css/main.53d4905d.css.map",
-    "main.a1c23dcd.js.map": "/evolving-AI/static/js/main.a1c23dcd.js.map",
+    "main.a985528d.css.map": "/evolving-AI/static/css/main.a985528d.css.map",
+    "main.0297276b.js.map": "/evolving-AI/static/js/main.0297276b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53d4905d.css",
-    "static/js/main.a1c23dcd.js"
+    "static/css/main.a985528d.css",
+    "static/js/main.0297276b.js"
   ]
 }
