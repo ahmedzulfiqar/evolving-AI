@@ -123,7 +123,6 @@ body {
 }
 .mycarousel .imgcar {
   height: 100vh !important;
-  background-color: red;
 }
 
 .legend {
@@ -203,4 +202,17 @@ body {
 .dsds {
   width: 100vw !important;
   height: 50% !important;
+}
+.card-img-overlay {
+  background-color: #00000082;
+}
+.card-img-overlay * {
+  text-shadow:1px 1px 5px black !important;
+}
+.card-img {
+  height: 17rem;
+}
+.sec4 span {
+  text-shadow:1px 0px 0px rgb(0, 0, 0) !important;
+  letter-spacing: 2px;
 }

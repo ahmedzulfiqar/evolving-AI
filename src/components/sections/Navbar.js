@@ -23,7 +23,7 @@ function Navbar({ setopen, open }) {
     <div className="col-12 p-0 m-0">
       <nav
         class={`navbar mynavbar navbar-expand-sm bg-md-transparent  shadow-1 text-light px-md-3 px-1  fixed-top ${
-          !Scrolled ? "py-sm-3 pb-sm-3 py-4 " : "py-sm-3 pb-sm-3 py-4 bg-black "
+          !Scrolled ? "py-sm-3 pb-sm-3 py-2 " : "py-sm-3 pb-sm-3 py-2 bg-black "
         }`}
       >
         <div class="container ps-md-0">
