@@ -3,20 +3,19 @@ import video1 from "../media/sds.mp4";
 import robot from "../media/OIP.jpg";
 function Section4() {
   return (
-    <div className="col-12 p-0 py-md-5 py-5 tean sec4">
+    <div className="col-12 p-0 py-md-5 py-5 tean sec4  bg-transparent">
       <div className="container py-md-5 px-0">
         <div className="row m-0 justify-content-between">
           <div className="col-md-3 col-12 d-md-block d-none">
-            <div className="videocover card">
+            <div className="videocover card border-0 bg-transparent">
               <video muted className="video p-0 m-0 imgcar" loop autoPlay>
                 <source src={video1} type="video/mp4 " />
               </video>
             </div>
           </div>{" "}
           <div className="col-md-9 col-12 al px-md-5 mt-md-0 mt-5">
-            <div className="col-12  display-5 weight">
+            <div className="col-12  display-5 weight  text-uppercase">
               Why Work With Us
-              <hr className="opacity-100 border-warning w-25" />
             </div>
             <p className="mt-md-4 mt-3 text-dark mb-3">
               Evolving AI is not only a dynamic Instagram page but also boasts

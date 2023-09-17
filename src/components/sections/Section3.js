@@ -22,7 +22,7 @@ function Section3() {
     <div className="col-12 p-0 py-md-5 py-5 tean bg-black">
       <div className="container py-md-5 px-0">
         <div className="row m-0 justify-content-center">
-          <div className="col-12 text-light display-5 weight">
+          <div className="col-12 text-light display-5 weight text-uppercase">
             Brands We Have Worked With
             <hr className="opacity-100 border-warning w-25"/>
           </div>

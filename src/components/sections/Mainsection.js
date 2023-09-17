@@ -38,6 +38,7 @@ function Mainsection() {
                     <div className="col-md-8 col-12  px-0">
                       <div className="display-1 text- ps-md-2 px-0">
                         EVOLVING <span className="text-light">AI</span>
+                        <hr className="opacity-100 border-warning w-50 mt-1 ms-1" />
                       </div>
                       <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3 text-md-warning">
                         Stay ahead of the curve

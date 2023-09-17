@@ -7,11 +7,11 @@ function Section2() {
       <div className="container py-md-5 px-0">
         <div className="row m-0 justify-content-center">
           <div className="col-12 text-md-center text-start">
-            <div className="display-5 mt-2 text-dark weight">
+            <div className="display-5 mt-2 text-dark weight text-uppercase">
               Embracing the Power of AI
             </div>
             <p className="mt-md-4 mt-3 text-dark px-0">
-              At [Your AI Website], we're passionate about exploring the
+              At Evolving AI, we're passionate about exploring the
               limitless possibilities of Artificial Intelligence (AI). Our
               mission is to make AI accessible and understandable for everyone,
               whether you're a seasoned tech enthusiast or just dipping your
