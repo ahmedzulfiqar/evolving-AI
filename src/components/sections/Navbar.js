@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import logo from "../media/Evolving AI logo.png";
+import { Link } from "react-scroll";
 function Navbar({ setopen, open }) {
   const [Scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
 
-      if (scrollTop >50) {
+      if (scrollTop > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -33,11 +34,103 @@ function Navbar({ setopen, open }) {
           </a>
           <div class=" justify-content-start algin-self-start  pre d-md-block d-none px-0">
             <ul class="navbar-nav mx-0">
-              <li class="nav-item mx-md-3 mx-2 text-warning fw-bolder">Home</li>
-              <li class="nav-item mx-md-3 mx-2">About Us</li>
-              <li class="nav-item mx-md-3 mx-2">PartnerShips</li>
-              <li class="nav-item mx-md-3 mx-2">Contact</li>
-              <li class="nav-item mx-md-3 mx-2">News Teller</li>
+              <Link
+                activeClass="active"
+                to={"Home"}
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={0}
+                delay={0}
+                offset={-100}
+                isDynamic={true}
+                aria-label="Close"
+                aria-hidden="true"
+                onSetActive={(i) => console.log(i)}
+              >
+                {" "}
+                <li class="nav-item mx-md-3 mx-2 fw-bolder">Home</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to={"About Us"}
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={0}
+                delay={0}
+                offset={-100}
+                isDynamic={true}
+                aria-label="Close"
+                aria-hidden="true"
+                onSetActive={(i) => console.log(i)}
+              >
+                <li class="nav-item mx-md-3 mx-2">About Us</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to={"PartnerShips"}
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={0}
+                delay={0}
+                offset={-100}
+                isDynamic={true}
+                aria-label="Close"
+                aria-hidden="true"
+                onSetActive={(i) => console.log(i)}
+              >
+                <li class="nav-item mx-md-3 mx-2 ">PartnerShips</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to={"Why Choose Us"}
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={0}
+                delay={0}
+                offset={-100}
+                isDynamic={true}
+                aria-label="Close"
+                aria-hidden="true"
+                onSetActive={(i) => console.log(i)}
+              >
+                <li class="nav-item mx-md-3 mx-2">Why Choose Us</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to={"NewsTeller"}
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={0}
+                delay={0}
+                offset={-100}
+                isDynamic={true}
+                aria-label="Close"
+                aria-hidden="true"
+                onSetActive={(i) => console.log(i)}
+              >
+                <li class="nav-item mx-md-3 mx-2">NewsTeller</li>
+              </Link>{" "}
+              <Link
+                activeClass="active"
+                to={"Courses"}
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={0}
+                delay={0}
+                offset={-100}
+                isDynamic={true}
+                aria-label="Close"
+                aria-hidden="true"
+                onSetActive={(i) => console.log(i)}
+              >
+                <li class="nav-item mx-md-3 mx-2">Courses</li>
+              </Link>
             </ul>
           </div>
           <div
@@ -76,13 +169,104 @@ function Navbar({ setopen, open }) {
         </div>
         <div class="offcanvas-body px-0  mt-0">
           <ul class="navbar-nav justify-content-end flex-grow-1 sa mynavbar text-light fw-bolder">
-            <li class="nav-item px-md-3 px-2 ps-4 py-3 bg-warning shadow"  >
-              Home
-            </li>
-            <li class="nav-item px-md-3 px-2  ps-4 py-3 ">About Us</li>
-            <li class="nav-item px-md-3 px-2  ps-4 py-3">PartnerShips</li>
-            <li class="nav-item px-md-3 px-2   ps-4 py-3">Contact</li>
-            <li class="nav-item px-md-3 px-2  ps-4 py-3">News Teller</li>
+            <Link
+              activeClass="active"
+              to={"Home"}
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={0}
+              delay={0}
+              offset={-100}
+              isDynamic={true}
+              aria-label="Close"
+              aria-hidden="true"
+              onSetActive={(i) => console.log(i)}
+            >
+              {" "}
+              <li class="nav-item px-md-3 px-2  ps-4 py-3">Home</li>
+            </Link>
+            <Link
+              activeClass="active"
+              to={"About Us"}
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={0}
+              delay={0}
+              offset={-100}
+              isDynamic={true}
+              aria-label="Close"
+              aria-hidden="true"
+              onSetActive={(i) => console.log(i)}
+            >
+              <li class="nav-item px-md-3 px-2  ps-4 py-3">About Us</li>
+            </Link>
+            <Link
+              activeClass="active"
+              to={"PartnerShips"}
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={0}
+              delay={0}
+              offset={-100}
+              isDynamic={true}
+              aria-label="Close"
+              aria-hidden="true"
+              onSetActive={(i) => console.log(i)}
+            >
+              <li class="nav-item px-md-3 px-2  ps-4 py-3 ">PartnerShips</li>
+            </Link>
+            <Link
+              activeClass="active"
+              to={"Why Choose Us"}
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={0}
+              delay={0}
+              offset={-100}
+              isDynamic={true}
+              aria-label="Close"
+              aria-hidden="true"
+              onSetActive={(i) => console.log(i)}
+            >
+              <li class="nav-item px-md-3 px-2  ps-4 py-3">Why Choose Us</li>
+            </Link>
+            <Link
+              activeClass="active"
+              to={"NewsTeller"}
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={0}
+              delay={0}
+              offset={-100}
+              isDynamic={true}
+              aria-label="Close"
+              aria-hidden="true"
+              onSetActive={(i) => console.log(i)}
+            >
+              <li class="nav-item px-md-3 px-2  ps-4 py-3">NewsTeller</li>
+            </Link>{" "}
+            <Link
+              activeClass="active"
+              to={"Courses"}
+              spy={true}
+              smooth={true}
+              hashSpy={true}
+              duration={0}
+              delay={0}
+              offset={-100}
+              isDynamic={true}
+              aria-label="Close"
+              aria-hidden="true"
+              onSetActive={(i) => console.log(i)}
+            >
+              <li class="nav-item px-md-3 px-2  ps-4 py-3">Courses</li>
+            </Link>
+           
           </ul>
         </div>
       </div>

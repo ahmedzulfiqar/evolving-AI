@@ -207,15 +207,22 @@ body {
   background-color: #00000082;
 }
 .card-img-overlay * {
-  text-shadow:1px 1px 5px black !important;
+  text-shadow: 1px 1px 5px black !important;
 }
 .card-img {
   height: 17rem;
 }
 .sec4 span {
-  text-shadow:1px 0px 0px rgba(0, 0, 0, 0.631) !important;
+  text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.631) !important;
   letter-spacing: 2px;
 }
-.transfrom{
-  transform: translateX(-3vw)
+.transfrom {
+  transform: translateX(-3vw);
+}
+.active {
+  color: #ffff00 !important;
+}
+.scroll {
+  overflow-y: scroll !important;
+  height: 50vh !important;
 }

@@ -7,7 +7,27 @@ import logo from "../media/Evolving AI logo.png";
 import bg from "../media/nasa-Q1p7bh3SHj8-unsplash.jpg";
 import videos from "../media/pexels-pavel-danilyuk-8084614 (Original).mp4";
 import robot from "../media/iStock-1029035836-e1575983057612-removebg.png";
+import TextTransition, { presets } from "react-text-transition";
 function Mainsection() {
+  const TEXTS = [
+    "Stay Ahead Of Curve",
+    "AI Revolutionize",
+    "Unlock AI Potential",
+    "AI's Impact Today",
+    "AI: Future Unveiled",
+    "Smart AI Solutions",
+    "AI: Beyond Limits",
+    "Navigating AI Era",
+    "AI Transformations",
+    "AI Empowering You",
+    "AI: Shaping Tomorrow",
+  ];
+  const [index, setIndex] = useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() => setIndex((index) => index + 1), 3000);
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
     <Element name="Home" className="px-0">
       <Middlecover>
@@ -38,38 +58,30 @@ function Mainsection() {
                     <div className="col-md-8 col-12  px-0">
                       <div className="display-1 text- ps-md-2 px-0">
                         EVOLVING <span className="text-light">AI</span>
-                        <hr className="opacity-100 border-warning w-50 mt-1 ms-1" />
                       </div>
                       <p className=" fw-lighter col-md-10 mt-2 fw-light ps-md-3 text-md-warning">
-                        Stay ahead of the curve
+                        <TextTransition
+                          springConfig={presets.gentle}
+                          style={{ margin: "0 4px" }}
+                          className="text-light fw-bolder"
+                          inline
+                        >
+                          {TEXTS[index % TEXTS.length]}
+                        </TextTransition>{" "}
                       </p>
-                      <div className="text-start  fw-light px-0">
-                        <div className="mt-md-1 mt-2 "></div>
+
+                      <div className="ps-md-3">
+                        <div class=" mt-md-4 ps-2">
+                          <button className=" btn btn-warning  fw-bolder rounded-0">
+                            <i class="fa-brands fa-discord me-2"></i>
+                            SUBSCRIBE
+                          </button>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-4 d-lg-block d-none">
                       <img alt="" className="checker img-fluid" />
                     </div>{" "}
-                    <ul class="fs-4 d-lg-flex d-none">
-                      <li class="nav-item mx-md-2 mx-2  border- rounded px-2">
-                        <i
-                          class="fa-brands fa-discord text-light p-0 m-0 pb-2 "
-                          aria-hidden="true"
-                        ></i>
-                      </li>
-                      <li class=" mx-md-2 mx-2  - rounded px-2">
-                        <i class="fa-solid fa-envelope text-light p-0 m-0 pb-2  "></i>
-                      </li>
-                      <li class=" mx-md-2 mx-2  border- rounded px-2">
-                        <i class="fa-brands fa-instagram text-light p-0 m-0 pb-2  "></i>
-                      </li>
-                      <li class="mx-md-2 mx-2  border- rounded px-2">
-                        <i class="fa-brands fa-twitter text-light p-0 m-0 pb-2  "></i>
-                      </li>{" "}
-                      <li class="mx-md-2 mx-2  border- rounded px-2">
-                        <i class="fa-brands fa-tiktok text-light p-0 m-0 pb-2  "></i>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </p>

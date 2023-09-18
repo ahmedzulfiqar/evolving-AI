@@ -9,7 +9,9 @@ import Section4 from "../components/sections/Section4";
 import Section5 from "../components/sections/Section5";
 import Section6 from "../components/sections/Section6";
 import Section7 from "../components/sections/Section7";
-
+import logo from "../components/media/Evolving AI logo.png";
+import Footer from "../components/desgin-blocks/Footer";
+import Section8 from "../components/sections/Section8";
 function Home() {
   const [open, setopen] = useState(false);
 
@@ -23,8 +25,8 @@ function Home() {
       <Section5 />
       <Section6 />
       <Section7 />
-
-      <div className="absolute">a</div>
+      <Section8 />
+      <Footer />
     </Homecover>
   );
 }

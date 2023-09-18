@@ -35,16 +35,16 @@ function Section7() {
                 />
                 on Freepik
               </div>
-              <div className="col-md-7 ps-5 col-12  align-self-center">
+              <div className="col-md-7 ps-md-5 col-12  px-0 align-self-center">
                 <div className="col-12 text-light display-6 weight">
                   DISCORD
                   <hr className="opacity-100 border-warning w-25 mt-1" />
                 </div>
-                <div className="display-6 text-light weight mt-4">
+                <div className="col-12 display-6 text-light weight mt-4">
                   EVOLVING AI ON
                   <span className="text-warning"> DISCORD</span>{" "}
                 </div>
-                <p className="text-light  mt-3 fw-lighter px-2">
+                <p className=" col-12 mx-0 text-light  mt-3 fw-lighter px-2">
                   🚀 Join our AI Discord community for in-depth discussions,
                   exclusive insights, and stay ahead of the curve
                 </p>
