@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/evolving-AI/static/css/main.a985528d.css",
-    "main.js": "/evolving-AI/static/js/main.dcbbfd19.js",
+    "main.css": "/evolving-AI/static/css/main.78c22e5d.css",
+    "main.js": "/evolving-AI/static/js/main.686f76e7.js",
     "static/js/787.c4e7f8f9.chunk.js": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels-pavel-danilyuk-8084614 (Original).mp4": "/evolving-AI/static/media/pexels-pavel-danilyuk-8084614 (Original).d82d72cf348241743c26.mp4",
     "static/media/sds.mp4": "/evolving-AI/static/media/sds.05fa85eff219c5118cb8.mp4",
@@ -9,18 +9,25 @@
     "static/media/nasa-Q1p7bh3SHj8-unsplash.jpg": "/evolving-AI/static/media/nasa-Q1p7bh3SHj8-unsplash.ce1bc343d487e0d73b1d.jpg",
     "static/media/twicht.jpg": "/evolving-AI/static/media/twicht.83b8436957d2ce75f3cf.jpg",
     "static/media/372964693___n.heic": "/evolving-AI/static/media/372964693_1342516460001593_3149138673660659603_n.0c88fbb1851d4d36fd78.heic",
+    "static/media/img6.jpg": "/evolving-AI/static/media/img6.7fe56eca35648aa17def.jpg",
+    "static/media/img4.jpg": "/evolving-AI/static/media/img4.fd79026ea8705d713afa.jpg",
+    "static/media/img7.jpg": "/evolving-AI/static/media/img7.374ea87534abc7842ebc.jpg",
     "static/media/Evolving AI logo.png": "/evolving-AI/static/media/Evolving AI logo.d2cc1a6b3e2bd97db790.png",
+    "static/media/img1.jpg": "/evolving-AI/static/media/img1.13969dd9b6b6fc52ee1d.jpg",
+    "static/media/img2.jpg": "/evolving-AI/static/media/img2.2b10b07cb55b1ec62beb.jpg",
+    "static/media/img3.jpg": "/evolving-AI/static/media/img3.83e51699d9909c081cd2.jpg",
+    "static/media/img5.jpg": "/evolving-AI/static/media/img5.a76a980c3a483a1898bd.jpg",
     "static/media/OIP.jpg": "/evolving-AI/static/media/OIP.cb265732785c52e824d5.jpg",
     "static/media/revicons.eot": "/evolving-AI/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/evolving-AI/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/evolving-AI/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/evolving-AI/index.html",
-    "main.a985528d.css.map": "/evolving-AI/static/css/main.a985528d.css.map",
-    "main.dcbbfd19.js.map": "/evolving-AI/static/js/main.dcbbfd19.js.map",
+    "main.78c22e5d.css.map": "/evolving-AI/static/css/main.78c22e5d.css.map",
+    "main.686f76e7.js.map": "/evolving-AI/static/js/main.686f76e7.js.map",
     "787.c4e7f8f9.chunk.js.map": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a985528d.css",
-    "static/js/main.dcbbfd19.js"
+    "static/css/main.78c22e5d.css",
+    "static/js/main.686f76e7.js"
   ]
 }
