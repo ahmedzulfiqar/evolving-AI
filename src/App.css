@@ -224,5 +224,15 @@ body {
 }
 .scroll {
   overflow-y: scroll !important;
-  height: 50vh !important;
+  height: 100vh !important;
+}
+
+li {
+  cursor: pointer !important;
+}
+.hover {
+  transition:all 0.5s ease !important;
+}
+.hover:hover {
+  transform: translateY(-5px) !important ;
 }

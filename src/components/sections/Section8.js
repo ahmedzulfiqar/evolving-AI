@@ -23,19 +23,20 @@ function Section8() {
           </div>
           <div className="col-12 mt-md-5 mt-3">
             <div className="row m-0 justify-content-center px-0 mx-0  ">
-              <div class="row scroll">
+              <div class="row scroll   m-0">
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                  <img
-                    src={image1}
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                  />
-
-                  <img
-                    src={image2}
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Wintry Mountain Landscape"
-                  />
+                  <div className="row  m-0">
+                    <img
+                      src={image1}
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Boat on Calm Water"
+                    />
+                    <img
+                      src={image2}
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Wintry Mountain Landscape"
+                    />
+                  </div>
                 </div>
 
                 <div class="col-lg-4 mb-4 mb-lg-0">
@@ -53,7 +54,7 @@ function Section8() {
                 </div>
 
                 <div class="col-lg-4 mb-4 mb-lg-0">
-                  <div className="row">
+                  <div className="row  m-0">
                     <img
                       src={image5}
                       class="w-100 shadow-1-strong rounded mb-4 col-12"
@@ -65,7 +66,6 @@ function Section8() {
                       class="w-100 shadow-1-strong rounded mb-4 col-12"
                       alt="Yosemite National Park"
                     />
-                  
                   </div>
                 </div>
               </div>

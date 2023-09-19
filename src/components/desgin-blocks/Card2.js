@@ -2,7 +2,7 @@ import React from "react";
 
 function Card2({image,text,text2}) {
   return (
-    <div className="px-md-2 px-0 col-md-11 col-12 mt-md-4 mt-2 ">
+    <div className="px-md-2 px-0 col-md-11 col-12 mt-md-4 mt-2 hover">
       <div class="card mb-3 border-0 shadow-sm rounded-4">
         <div class="row g-0">
           <div class="col-md-3">

@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 
 function Section2() {
   return (
-    <Element className="px-0" name="About Us">
+    <Element className="px-0" name="About-Us">
       <div className="col-12 p-0 py-md-5 py-5 tean bg-light">
         <div className="container py-md-5 px-0">
           <div className="row m-0 justify-content-center">

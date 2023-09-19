@@ -53,7 +53,7 @@ function Navbar({ setopen, open }) {
               </Link>
               <Link
                 activeClass="active"
-                to={"About Us"}
+                to={"About-Us"}
                 spy={true}
                 smooth={true}
                 hashSpy={true}
@@ -188,7 +188,7 @@ function Navbar({ setopen, open }) {
             </Link>
             <Link
               activeClass="active"
-              to={"About Us"}
+              to={"About-Us"}
               spy={true}
               smooth={true}
               hashSpy={true}

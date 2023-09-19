@@ -53,7 +53,7 @@ function Section5() {
                       class="form-control"
                       placeholder="Enter Your Email"
                     />
-                    <button className="btn btn-warning transfrom fw-bolder rounded-0">
+                    <button className="btn btn-warning transfrom fw-bolder rounded-0 rounded-end">
                       SUBSCRIBE
                     </button>
                   </div>

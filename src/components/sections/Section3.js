@@ -36,10 +36,8 @@ function Section3() {
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={1000}
+                autoPlaySpeed={2000}
                 customTransition="all .5s"
-                transitionDuration={500}
-                containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
               >
                 <Card

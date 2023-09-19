@@ -17,25 +17,25 @@ function Footer() {
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase text-warning fw-bold mb-4">Products</h6>
+            <h6 class="text-uppercase text-warning fw-bold mb-4">Social Media Links</h6>
             <p>
               <a href="#!" class="text-reset">
-                Angular
+                Instagram
               </a>
             </p>
             <p>
               <a href="#!" class="text-reset">
-                React
+                Discord
               </a>
             </p>
             <p>
               <a href="#!" class="text-reset">
-                Vue
+                Tiktok
               </a>
             </p>
             <p>
               <a href="#!" class="text-reset">
-                Laravel
+                Twitter
               </a>
             </p>
           </div>
@@ -45,23 +45,23 @@ function Footer() {
               Useful links
             </h6>
             <p>
-              <a href="#!" class="text-reset">
-                Pricing
+              <a href="#Home" class="text-reset">
+                Home
               </a>
             </p>
             <p>
-              <a href="#!" class="text-reset">
-                Settings
+              <a href="#About-Us" class="text-reset">
+                About Us
               </a>
             </p>
             <p>
-              <a href="#!" class="text-reset">
-                Orders
+              <a href="#NewsTeller" class="text-reset">
+                NewsLetter
               </a>
             </p>
             <p>
-              <a href="#!" class="text-reset">
-                Help
+              <a href="#Courses" class="text-reset">
+                Courses
               </a>
             </p>
           </div>
@@ -88,9 +88,7 @@ function Footer() {
 
       <div class="text-center p-4">
         © 2021 Copyright : {""}
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-          {""} EvolvingAI.com
-        </a>
+        <a class="text-reset fw-bold">{""} EvolvingAI.com</a>
       </div>
     </footer>
   );
