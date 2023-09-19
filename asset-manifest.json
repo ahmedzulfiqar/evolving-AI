@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/evolving-AI/static/css/main.78c22e5d.css",
-    "main.js": "/evolving-AI/static/js/main.686f76e7.js",
+    "main.css": "/evolving-AI/static/css/main.e28de914.css",
+    "main.js": "/evolving-AI/static/js/main.7c59a824.js",
     "static/js/787.c4e7f8f9.chunk.js": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels-pavel-danilyuk-8084614 (Original).mp4": "/evolving-AI/static/media/pexels-pavel-danilyuk-8084614 (Original).d82d72cf348241743c26.mp4",
     "static/media/sds.mp4": "/evolving-AI/static/media/sds.05fa85eff219c5118cb8.mp4",
@@ -22,12 +22,12 @@
     "static/media/revicons.ttf": "/evolving-AI/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/evolving-AI/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/evolving-AI/index.html",
-    "main.78c22e5d.css.map": "/evolving-AI/static/css/main.78c22e5d.css.map",
-    "main.686f76e7.js.map": "/evolving-AI/static/js/main.686f76e7.js.map",
+    "main.e28de914.css.map": "/evolving-AI/static/css/main.e28de914.css.map",
+    "main.7c59a824.js.map": "/evolving-AI/static/js/main.7c59a824.js.map",
     "787.c4e7f8f9.chunk.js.map": "/evolving-AI/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c22e5d.css",
-    "static/js/main.686f76e7.js"
+    "static/css/main.e28de914.css",
+    "static/js/main.7c59a824.js"
   ]
 }
